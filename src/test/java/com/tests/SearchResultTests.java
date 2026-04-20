@@ -36,7 +36,7 @@ public class SearchResultTests {
 
 	@Test(dependsOnMethods = "VerifyResultPage")
 	public void AllTabTest() throws IOException, InterruptedException {
-		// Click the All tab and wait for the page to load
+		// Click All tab and wait for the page to load
 		test = HomePageTests.extent.createTest("AllTabTest");
 		resultsPage.clickOnAllTab();
 		wait.until(ExpectedConditions.titleContains("Cognizant"));
