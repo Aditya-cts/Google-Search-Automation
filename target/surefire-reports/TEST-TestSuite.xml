@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="93.282" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="maven.user.extensions" value="C:\Users\2478759/.m2/extensions.xml"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\target\test-classes;C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\target\classes;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\2478759\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\2478759\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\2478759\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2478759\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\2478759\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\2478759\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\2478759\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2478759\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2478759\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2478759\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2478759\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2478759\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2478759\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2478759\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\2478759\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\2478759\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\2478759\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2478759\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.5.4\maven-surefire-plugin-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-api\3.5.4\surefire-api-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.5.4\surefire-logger-api-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.5.4\surefire-shared-utils-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.5.4\surefire-extensions-api-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.5.4\maven-surefire-common-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-booter\3.5.4\surefire-booter-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.5.4\surefire-extensions-spi-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\2478759\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\2478759\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.4.0\maven-common-artifact-filters-3.4.0.jar;C:\Users\2478759\.m2\repository\org\codehaus\plexus\plexus-java\1.5.0\plexus-java-1.5.0.jar;C:\Users\2478759\.m2\repository\org\ow2\asm\asm\9.8\asm-9.8.jar;C:\Users\2478759\.m2\repository\com\thoughtworks\qdox\qdox\2.2.0\qdox-2.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="maven.user.toolchains" value="C:\Users\2478759/.m2/toolchains.xml"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.repo.central" value="https://repo.maven.apache.org/maven2"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="session.topDirectory" value="C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\2478759\AppData\Local\Temp\surefire2033896340025639790\surefirebooter-20260420111622045_3.jar C:\Users\2478759\AppData\Local\Temp\surefire2033896340025639790 2026-04-20T11-16-20_473-jvmRun1 surefire-20260420111622045_1tmp surefire_0-20260420111622045_2tmp"/>
+    <property name="maven.project.settings" value="${session.rootDirectory}/.mvn/settings.xml"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\target\test-classes;C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\target\classes;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\2478759\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\2478759\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\2478759\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2478759\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\2478759\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\2478759\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\2478759\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\2478759\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\2478759\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2478759\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2478759\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2478759\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2478759\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2478759\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2478759\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2478759\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\2478759\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\2478759\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\2478759\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2478759\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.5.4\maven-surefire-plugin-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-api\3.5.4\surefire-api-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.5.4\surefire-logger-api-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.5.4\surefire-shared-utils-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.5.4\surefire-extensions-api-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.5.4\maven-surefire-common-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-booter\3.5.4\surefire-booter-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.5.4\surefire-extensions-spi-3.5.4.jar;C:\Users\2478759\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\2478759\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\2478759\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.4.0\maven-common-artifact-filters-3.4.0.jar;C:\Users\2478759\.m2\repository\org\codehaus\plexus\plexus-java\1.5.0\plexus-java-1.5.0.jar;C:\Users\2478759\.m2\repository\org\ow2\asm\asm\9.8\asm-9.8.jar;C:\Users\2478759\.m2\repository\com\thoughtworks\qdox\qdox\2.2.0\qdox-2.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2478759"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="maven.user.conf" value="C:\Users\2478759/.m2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.project.conf" value="${session.rootDirectory}/.mvn"/>
+    <property name="surefire.real.class.path" value="C:\Users\2478759\AppData\Local\Temp\surefire2033896340025639790\surefirebooter-20260420111622045_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35-LTS-2513"/>
+    <property name="user.name" value="2478759"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="maven.installation.conf" value="C:\Maven\apache-maven-4.0.0-rc-4/conf"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven.installation.toolchains" value="C:\Maven\apache-maven-4.0.0-rc-4/conf/toolchains.xml"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\2478759\.m2\repository"/>
+    <property name="maven.project.extensions" value="${session.rootDirectory}/.mvn/extensions.xml"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2478759\AppData\Local\Temp\"/>
+    <property name="maven.installation.extensions" value="C:\Maven\apache-maven-4.0.0-rc-4/conf/extensions.xml"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\2478759\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\2478759\bin;C:\Program Files\Python313\Scripts;C:\Program Files\Python313;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\2478759\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1\bin;C:\Maven\apache-maven-4.0.0-rc-4\bin;C:\Users\2478759\.local\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21+35-LTS-2513"/>
+    <property name="maven.installation.settings" value="C:\Maven\apache-maven-4.0.0-rc-4/conf/settings.xml"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.user.settings" value="C:\Users\2478759/.m2/settings.xml"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="VerifyHomePage" classname="com.tests.HomePageTests" time="0.033">
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Apr 20, 2026 11:16:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
+  </testcase>
+  <testcase name="NoOfLinksInWebPage" classname="com.tests.HomePageTests" time="0.351">
+    <system-out><![CDATA[No of Links on the Home Page : 25
+Link 1:About
+Link 2:Store
+Link 3:Gmail
+Link 4:Images
+Link 5:
+Link 6:Sign in
+Link 7:हिन्दी
+Link 8:বাংলা
+Link 9:తెలుగు
+Link 10:मराठी
+Link 11:தமிழ்
+Link 12:ગુજરાતી
+Link 13:ಕನ್ನಡ
+Link 14:മലയാളം
+Link 15:ਪੰਜਾਬੀ
+Link 16:Advertising
+Link 17:Business
+Link 18:How Search works
+Link 19:Privacy
+Link 20:Terms
+Link 21:
+Link 22:
+Link 23:
+Link 24:
+Link 25:
+]]></system-out>
+  </testcase>
+  <testcase name="VerifySearchText" classname="com.tests.HomePageTests" time="0.115"/>
+  <testcase name="ScreenshotOfSearchSuggestion" classname="com.tests.HomePageTests" time="0.734">
+    <system-out><![CDATA[Screenshot saved: screenshots\1_searchSuggestions.png
+]]></system-out>
+  </testcase>
+  <testcase name="NoOfSearchSuggestionDisplayed" classname="com.tests.HomePageTests" time="50.064">
+    <system-out><![CDATA[suggestions 1:cognizant
+suggestions 2:cognizant careers
+suggestions 3:cognizant bangalore
+suggestions 4:cognizant meaning
+suggestions 5:cognizant share price
+suggestions 6:cognizant careers login
+suggestions 7:cognizant whitefield
+Cognizant Technology Solutions · Kundalahalli Colony, Brookefield, Bengaluru, Karnataka
+suggestions 8:cognizant office bangalore
+suggestions 9:cognizant careers bangalore
+suggestions 10:cognizant hiring freshers
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyResultPage" classname="com.tests.SearchResultTests" time="0.021">
+    <system-out><![CDATA[Result Page Title : Cognizant - Google Search
+]]></system-out>
+  </testcase>
+  <testcase name="AllTabTest" classname="com.tests.SearchResultTests" time="0.425">
+    <system-out><![CDATA[---- All Tab ----
+Full-page screenshot saved: C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\screenshots\2_AllTab.png
+Bottom screenshot saved: C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\screenshots\3_AllTab_bottom.png
+]]></system-out>
+  </testcase>
+  <testcase name="NewsTabTest" classname="com.tests.SearchResultTests" time="6.589">
+    <system-out><![CDATA[---- News Tab ----
+Full-page screenshot saved: C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\screenshots\4_NewsTab.png
+Bottom screenshot saved: C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\screenshots\5_NewsTab_bottom.png
+]]></system-out>
+  </testcase>
+  <testcase name="ImagesTabTest" classname="com.tests.SearchResultTests" time="6.821">
+    <system-out><![CDATA[---- Images Tab ----
+Full-page screenshot saved: C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\screenshots\6_ImagesTab.png
+Bottom screenshot saved: C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\screenshots\7_ImagesTab_bottom.png
+]]></system-out>
+  </testcase>
+  <testcase name="VideosTabTest" classname="com.tests.SearchResultTests" time="11.727">
+    <system-out><![CDATA[---- Videos Tab ----
+Full-page screenshot saved: C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\screenshots\8_VideosTab.png
+Bottom screenshot saved: C:\Users\2478759\Desktop\SeleniumHandsOn\GoogleAutomationProject\screenshots\9_VideosTab_bottom.png
+]]></system-out>
+  </testcase>
+</testsuite>

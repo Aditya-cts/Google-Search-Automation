@@ -1,0 +1,5 @@
+com\pages\GoogleHomePage.class
+com\utils\TestUtilities.class
+com\utils\ObjectReader.class
+com\browsersImplementation\BrowsersAvailable.class
+com\pages\GoogleSearchResultPage.class
