@@ -36,8 +36,8 @@ pipeline {
             }
             post {
                 always {
-                    testNG '**/target/surefire-reports/testng-results.xml'
-                }
+		    testNG '**/target/surefire-reports/testng-results.xml'
+		}
             }
         }
 
