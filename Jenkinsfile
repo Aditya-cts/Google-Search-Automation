@@ -35,8 +35,8 @@ pipeline {
                 echo 'Publishing TestNG results...'
             }
             post {
-                always {
-		    testNG '**/target/surefire-reports/testng-results.xml'
+                always{
+			testNG(reportFilenamePattern: '**/target/surefire-reports/testng-results.xml')
 		}
             }
         }
